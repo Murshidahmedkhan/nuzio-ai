@@ -1,0 +1,35 @@
+i push including the node_module folder 
+in terminal just open NUZIO-AI foler and npm run dev
+
+if databse error comes then please add your database url for mongodb in env in server folder
+
+Demo credentials u can create if u want
+- Email: `demo@nuzio.ai`
+- Password: `Demo@123`
+
+
+
+npm install --save-dev concurrently
+
+|--CLIENT--|
+
+npm create vite@latest client -- --template react
+npm install 
+ 
+react-router-dom 
+axios
+tailwindcss
+@tailwindcss/vite
+
+|--SERVER--|
+
+express 
+mongoose 
+dotenv 
+cors 
+cookie-parser 
+bcryptjs 
+jsonwebtoken
+nodemon
+mongodb
+
