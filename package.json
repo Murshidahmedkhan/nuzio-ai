@@ -6,7 +6,7 @@
   "scripts": {
     "client": "npm run dev --prefix client",
     "server": "npm run dev --prefix server",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "node api.js && concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
