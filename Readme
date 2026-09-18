@@ -1,12 +1,12 @@
-i push including the node_module folder 
-in terminal just open NUZIO-AI foler and npm run dev
+i push including the node_module and env
+in terminal just open NUZIO-AI foler and run npm run dev
 
-if databse error comes then please add your database url for mongodb in env in server folder
+if databse error comes then please add your database url of mongodb in env in server folder
 
-Demo credentials u can create if u want
+Demo credentials 
 - Email: `demo@nuzio.ai`
 - Password: `Demo@123`
-
+u can register new user also if u want
 
 
 npm install --save-dev concurrently
